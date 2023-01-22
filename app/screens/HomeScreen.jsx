@@ -14,7 +14,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import colors from "../config/colors";
 import SPACING from "../config/SPACING";
 import { MaterialCommunityIcons, Ionicons } from "@expo/vector-icons";
-const avatar = require("../../assets/avatar/avatar.jpg");
+const avatar = require("../../assets/cars/one1.png");
 import cars from "../data/cars";
 
 const { width } = Dimensions.get("window");
@@ -141,7 +141,7 @@ const HomeScreen = () => {
                 marginBottom: SPACING,
               }}
             >
-              20%
+              10%
             </Text>
             <Text
               style={{
@@ -151,28 +151,28 @@ const HomeScreen = () => {
                 marginBottom: SPACING,
               }}
             >
-              New Arrival
+              Terbaru
             </Text>
             <Text
               style={{
                 color: colors.light,
               }}
             >
-              Get a new car discount, only valid this friday
+              Dapatkan Rumah dengan harga 50 juta dan dapatkan cash back 10%
             </Text>
           </View>
           <View
             style={{
-              width: "50%",
+              width: "40%",
               position: "relative",
             }}
           >
             <Image
               style={{
-                width: "100%",
-                height: 100,
+                width: "150%",
+                height: 150,
               }}
-              source={require("../../assets/cars/bmw-wlcom.png")}
+              source={require("../../assets/cars/rumah1.jpg")}
             />
           </View>
         </LinearGradient>
@@ -188,7 +188,7 @@ const HomeScreen = () => {
               fontWeight: "600",
             }}
           >
-            Top Deals
+            
           </Text>
           <View
             style={{
@@ -274,7 +274,7 @@ const HomeScreen = () => {
                       fontSize: SPACING * 1.5,
                     }}
                   >
-                    $ {car.price}
+                    Rp. {car.price}
                   </Text>
                   <TouchableOpacity
                     style={{
