@@ -4,7 +4,7 @@ const cars = [
     id: 1,
     name: "TypeA",
     image: require("../../assets/cars/rumah1.jpg"),
-    price: 5000000,
+    price: 5500000,
     rating: 4.5,
     isMyFavorite: false,
     company_id: 1,
